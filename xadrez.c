@@ -11,25 +11,40 @@ int main() {
 
     // Movimento do bispo: 5 casas na diagonal para cima e cireita
 
-    int movimentosBispo = 5;
+    int bispo = 5;
     int b = 1;
     printf("\nMovimento do Bispo:\n");
-    while (b <= movimentosBispo) {
+    while (b <= bispo) {
         printf("Cima - Direita\n");
         b++;
     }
 
     // Movimento da rainha: 8 casas para a esquerda
 
-    int Rainha = 8;
+    int rainha = 8;
     int r = 1;
     printf("\nMovimento da Rainha:\n");
     do {
         printf("Esquerda\n");
         r++;
-    } while (r <= Rainha);
+    } while (r <= rainha);
 
+    // Movimento do cavalo em L
 
+    int cavalo = 1;
+
+    printf("\nMovimento do Cavalo:\n");
+
+        while (cavalo--)
+        {
+            for (int i = 0; i < 2; i++)
+            {
+                printf("Baixo\n");
+            }
+            
+                printf("Esquerda\n");
+        }
+        
 
 
 
